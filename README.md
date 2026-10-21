@@ -88,7 +88,7 @@ Real browser captures at a consistent 1440-pixel desktop width. Click any image 
 
 ## Live demo
 
-GitHub Pages deployment is prepared. A live link will be added after the public deployment has been verified.
+[Visit Zara Therapy Clinic](https://aymenmansoor.github.io/physiotherapy-website/) — hosted for free on GitHub Pages.
 
 ## Run locally
 
