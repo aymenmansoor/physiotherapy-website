@@ -1,117 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meet Our Team</title>
-
-    <style>
-        body, h1, h2, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-        }
-        /* Header styles */
-        header {
-            background-color:#4CAF50;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav {
-            margin-top: 10px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-
-
-        section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content:center;
-            padding: 2em;
-        }
-
-        .team-member {
-            background-color: white;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            margin: 1em;
-            padding: 1em;
-            width: 300px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 50%;
-            justify-content: center;
-        }
-         /* Footer styles */
-         footer {
-            background-color: #4CAF50;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-    </style>
-    <link rel="stylesheet" href="responsive.css">
-</head>
-
-<body>
-
-    <!-- Header Section -->
-    <header>
-        <h1>Zara Therapy Clinic</h1>
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="meetourteam.html">Therapists</a>
-            <a href="Services.html">Services</a>
-            <a href="products.html">Products</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="review.html">Testimonials</a>
-            <a href="Contact%20Us.html">Contact</a>
-            <a href="Gallery.html">Gallery</a>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Zara Therapy Clinic: a fictional physiotherapy website exploring movement, rehabilitation and wellbeing."
+    >
+    <meta name="theme-color" content="#174e3c" >
+    <title>Our Team - Zara Therapy Clinic</title>
+    <link
+      rel="stylesheet"
+      href="assets/vendor/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="responsive.css" >
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="main-navigation" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="Services.html">Services</a
+          ><a href="meetourteam.html" aria-current="page">Our team</a
+          ><a href="products.html">Products</a><a href="aboutus.html">About</a
+          ><a href="review.html">Testimonials</a
+          ><a href="Gallery.html">Gallery</a
+          ><a href="Contact%20Us.html">Contact</a>
         </nav>
+      </div>
     </header>
-    <aside class="demo-notice">Portfolio demonstration · Fictional clinic · No medical advice, bookings or purchases.</aside>
-
-    <main><h2 class="page-title">Meet Our Team</h2><p class="page-intro">Illustrative profiles only; these are not real healthcare providers.</p><section>
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">AM</div><h2>Alex Morgan</h2><p>Fictional therapist profile</p></div>
-
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">JR</div><h2>Jamie Reed</h2><p>Fictional therapist profile</p></div>
-
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">TQ</div><h2>Taylor Quinn</h2><p>Fictional therapist profile</p></div>
-
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">SE</div><h2>Sam Ellis</h2><p>Fictional therapist profile</p></div>
-
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">RL</div><h2>Robin Lane</h2><p>Fictional therapist profile</p></div>
-
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">CB</div><h2>Casey Blake</h2><p>Fictional therapist profile</p></div>
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">JV</div><h2>Jordan Vale</h2><p>Fictional therapist profile</p></div>
-
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">RP</div><h2>Riley Parker</h2><p>Fictional therapist profile</p></div>
-
-        <div class="team-member"><div class="profile-avatar" aria-hidden="true">DH</div><h2>Drew Harper</h2><p>Fictional therapist profile</p></div>
-    </section></main>
-<!-- Footer Section -->
-<footer><p>Zara Therapy Clinic · Fictional portfolio demonstration</p><p>No healthcare services are provided through this website.</p></footer>
-</body>
-
+    <aside class="demo-notice">
+      <span class="notice-dot" aria-hidden="true"></span> A fictional clinic. A
+      real passion for thoughtful design.
+      <span class="notice-detail"
+        >Portfolio demo · No bookings or medical advice</span
+      >
+    </aside>
+    <main id="main">
+      <section class="page-heading wrap">
+        <p class="eyebrow">PEOPLE BEHIND THE CONCEPT</p>
+        <h1>A human touch.<br ><em>A shared perspective.</em></h1>
+        <p class="lead-copy">
+          Meet the imagined team behind Zara. These illustrative profiles are
+          fictional and do not represent real healthcare providers.
+        </p>
+      </section>
+      <section class="team-grid wrap" aria-label="Fictional therapist profiles">
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 01</span>
+            <div class="profile-avatar" aria-hidden="true">AM</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Alex Morgan</h2>
+            <p>Movement &amp; mobility concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 02</span>
+            <div class="profile-avatar" aria-hidden="true">JR</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Jamie Reed</h2>
+            <p>Rehabilitation concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 03</span>
+            <div class="profile-avatar" aria-hidden="true">TQ</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Taylor Quinn</h2>
+            <p>Exercise support concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 04</span>
+            <div class="profile-avatar" aria-hidden="true">SE</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Sam Ellis</h2>
+            <p>Everyday wellbeing concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 05</span>
+            <div class="profile-avatar" aria-hidden="true">RL</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Robin Lane</h2>
+            <p>Balance &amp; flexibility concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 06</span>
+            <div class="profile-avatar" aria-hidden="true">CB</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Casey Blake</h2>
+            <p>Active living concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 07</span>
+            <div class="profile-avatar" aria-hidden="true">JV</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Jordan Vale</h2>
+            <p>Movement education concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 08</span>
+            <div class="profile-avatar" aria-hidden="true">RP</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Riley Parker</h2>
+            <p>Posture &amp; mobility concept</p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="profile-visual">
+            <span class="profile-index">ZARA / 09</span>
+            <div class="profile-avatar" aria-hidden="true">DH</div>
+            <span class="profile-flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="profile-details">
+            <p class="eyebrow">FICTIONAL THERAPIST</p>
+            <h2>Drew Harper</h2>
+            <p>Guided exercise concept</p>
+          </div>
+        </article>
+      </section>
+      <section class="closing-banner wrap">
+        <div>
+          <p class="eyebrow">TAKE A LOOK AROUND</p>
+          <h2>Discover a different<br >perspective on wellbeing.</h2>
+        </div>
+        <a class="button button-light" href="aboutus.html"
+          >Our story <span aria-hidden="true">→</span></a
+        >
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <p>
+          A thoughtful approach to movement.<br >A welcoming space to explore.
+        </p>
+        <a class="footer-explore" href="Services.html"
+          >Explore the concept <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <p>Zara Therapy Clinic · Portfolio demonstration</p>
+        <p>
+          Fictional profiles. No healthcare services, bookings or purchases.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

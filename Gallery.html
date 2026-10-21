@@ -1,140 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GALLERY - Zara Therapy Clinic</title>
-
-  <style>
-    /* Header styles */
-    header {
-            background-color:#4CAF50;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav {
-            margin-top: 10px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-    .image-container {
-      display: inline-block;
-      margin: 10px;
-      position: relative;
-      overflow: hidden;
-      width: 400px;
-      height: 400px;
-    }
-
-    .image-container img {
-      transition: transform 0.5s ease;
-    }
-
-    .image-container:hover img {
-      transform: scale(1.2);
-    }
-      /* Footer styles */
-      footer {
-            background-color: #4CAF50;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-  </style>
-    <link rel="stylesheet" href="responsive.css">
-</head>
-<body>
-   <!-- Header Section -->
-   <header>
-        <h1>Zara Therapy Clinic</h1>
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="meetourteam.html">Therapists</a>
-            <a href="Services.html">Services</a>
-            <a href="products.html">Products</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="review.html">Testimonials</a>
-            <a href="Contact%20Us.html">Contact</a>
-            <a href="Gallery.html">Gallery</a>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Zara Therapy Clinic: a fictional physiotherapy website exploring movement, rehabilitation and wellbeing."
+    >
+    <meta name="theme-color" content="#174e3c" >
+    <title>Gallery - Zara Therapy Clinic</title>
+    <link
+      rel="stylesheet"
+      href="assets/vendor/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="responsive.css" >
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="main-navigation" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="Services.html">Services</a
+          ><a href="meetourteam.html">Our team</a
+          ><a href="products.html">Products</a><a href="aboutus.html">About</a
+          ><a href="review.html">Testimonials</a
+          ><a href="Gallery.html" aria-current="page">Gallery</a
+          ><a href="Contact%20Us.html">Contact</a>
         </nav>
+      </div>
     </header>
-    <aside class="demo-notice">Portfolio demonstration · Fictional clinic · No medical advice, bookings or purchases.</aside>
-
-   <h2 class="page-title">Gallery</h2><p class="page-intro">Illustrative rehabilitation and movement photography.</p>
-
-    <div class="Gallery">
-    <div class="Gallery">
-  <div class="image-container">
-    <img src="assets/images/1.webp" alt="Image 1">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/2.webp" alt="Image 2">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/3.jpeg" alt="Image 3">
-  </div>
-</div>
-
-<div class="Gallery-2">
-  <div class="image-container">
-    <img src="assets/images/4.jpeg" alt="Image 4">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/5.webp" alt="Image 5">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/6.jpg" alt="Image 6">
-  </div>
-</div>
-
-<div class="Gallery-3">
-  <div class="image-container">
-    <img src="assets/images/7.jpeg" alt="Image 7">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/8.jpeg" alt="Image 8">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/9.jpeg" alt="Image 9">
-  </div>
-</div>
-
-<div class="Gallery-4">
-  <div class="image-container">
-    <img src="assets/images/10.jpeg" alt="Image 10">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/11.jpg" alt="Image 11">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/12.jpeg" alt="Image 12">
-  </div>
-</div>
-
-<div class="Gallery-5">
-  <div class="image-container">
-    <img src="assets/images/13.jpeg" alt="Image 13">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/14.jpg" alt="Image 14">
-  </div>
-  <div class="image-container">
-    <img src="assets/images/15.webp" alt="Image 15">
-  </div>
-</div>
- </div>
- <!-- Footer Section -->
- <footer><p>Zara Therapy Clinic · Fictional portfolio demonstration</p><p>No healthcare services are provided through this website.</p></footer>
-</body>
+    <aside class="demo-notice">
+      <span class="notice-dot" aria-hidden="true"></span> A fictional clinic. A
+      real passion for thoughtful design.
+      <span class="notice-detail"
+        >Portfolio demo · No bookings or medical advice</span
+      >
+    </aside>
+    <main id="main">
+      <section class="page-heading wrap">
+        <p class="eyebrow">MOVEMENT IN FOCUS</p>
+        <h1>Moments of movement.<br ><em>Spaces of possibility.</em></h1>
+        <p class="lead-copy">
+          A visual collection of illustrative rehabilitation, exercise and
+          wellbeing photography. Images do not depict services provided by this
+          fictional clinic.
+        </p>
+      </section>
+      <section
+        class="gallery-grid wrap"
+        aria-label="Illustrative physiotherapy photographs"
+      >
+        <figure class="image-container">
+          <img
+            src="assets/images/1.webp"
+            alt="Illustrative shoulder movement session"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>01 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/2.webp"
+            alt="Illustrative knee mobilisation"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>02 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/3.jpeg"
+            alt="Illustrative guided leg movement"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>03 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/4.jpeg"
+            alt="Illustrative seated mobility session"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>04 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/5.webp"
+            alt="Illustrative shoulder support"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>05 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/6.jpg"
+            alt="Illustrative guided arm movement"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>06 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/7.jpeg"
+            alt="Illustrative leg rehabilitation"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>07 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/8.jpeg"
+            alt="Illustrative balance and mobility"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>08 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/9.jpeg"
+            alt="Illustrative neck movement"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>09 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/10.jpeg"
+            alt="Illustrative manual therapy"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>10 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/11.jpg"
+            alt="Illustrative exercise ball session"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>11 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/12.jpeg"
+            alt="Illustrative shoulder exercise"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>12 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/13.jpeg"
+            alt="Illustrative assisted movement"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>13 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/14.jpg"
+            alt="Illustrative ankle exercise"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>14 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            src="assets/images/15.webp"
+            alt="Illustrative rehabilitation session"
+            loading="lazy"
+            width="600"
+            height="450"
+          >
+          <figcaption>
+            <span>15 / MOVEMENT IN FOCUS</span><span aria-hidden="true">→</span>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="closing-banner wrap">
+        <div>
+          <p class="eyebrow">TAKE A LOOK AROUND</p>
+          <h2>Discover a different<br >perspective on wellbeing.</h2>
+        </div>
+        <a class="button button-light" href="aboutus.html"
+          >Our story <span aria-hidden="true">→</span></a
+        >
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <p>
+          A thoughtful approach to movement.<br >A welcoming space to explore.
+        </p>
+        <a class="footer-explore" href="Services.html"
+          >Explore the concept <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <p>Zara Therapy Clinic · Portfolio demonstration</p>
+        <p>
+          Fictional profiles. No healthcare services, bookings or purchases.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

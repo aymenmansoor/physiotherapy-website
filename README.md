@@ -1,6 +1,6 @@
 # Zara Therapy Clinic — Physiotherapy Website
 
-A responsive, multi-page website concept for a fictional physiotherapy clinic. Built with HTML, CSS and Bootstrap, it brings services, therapist profiles and clinic information together in a welcoming green-and-white design.
+A responsive, multi-page website concept for a fictional physiotherapy clinic. Built with HTML, CSS and Bootstrap, it brings services, therapist profiles and clinic information together in a calm forest-green, sage and off-white design.
 
 This is a portfolio demonstration: no healthcare services, appointment bookings, purchases or message delivery are offered.
 
@@ -15,14 +15,14 @@ This is a portfolio demonstration: no healthcare services, appointment bookings,
 - About page and clearly labelled fictional testimonials
 - Sample contact information and a disabled contact-form preview
 - Photo gallery with hover effects
-- Responsive layouts for desktop and mobile
+- Responsive layouts with an accessible mobile menu, active navigation and keyboard controls
 
 ## Technology stack
 
 - **HTML5** — page structure and semantic content
 - **CSS3** — green-and-white styling, responsive layouts and gallery effects
-- **Bootstrap 5.0.2** — carousel, cards and form styling
-- **JavaScript** — Bootstrap's bundled carousel controls
+- **Bootstrap 5.0.2** — interactive homepage carousel
+- **JavaScript** — accessible mobile navigation and Bootstrap carousel controls
 
 Bootstrap is included locally, so the site requires no CDN connection or build step.
 
@@ -111,7 +111,8 @@ Open `http://localhost:8000` in your browser. Alternatively, open `index.html` d
 ├── review.html             # Fictional testimonials
 ├── Contact Us.html         # Demo contact information and form
 ├── Gallery.html            # Photo gallery
-├── responsive.css          # Shared responsive styles
+├── responsive.css          # Shared visual system and responsive styles
+├── site.js                 # Accessible mobile navigation
 ├── assets/
 │   ├── images/             # Existing clinic and product imagery
 │   └── vendor/             # Bootstrap distribution and licence

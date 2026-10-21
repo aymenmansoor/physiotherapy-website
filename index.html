@@ -1,220 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Zara Therapy Clinic: a fictional physiotherapy website exploring movement, rehabilitation and wellbeing."
+    >
+    <meta name="theme-color" content="#174e3c" >
     <title>Home - Zara Therapy Clinic</title>
-    <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <style>
-
-        body, h1, h2, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-        }
-
-        /* Header styles */
-        header {
-            background-color:#4CAF50;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav {
-            margin-top: 10px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            font-size: 18px;
-            margin-top: 20px;
-        }
-
-
-        /* Services section styles */
-        .services {
-            text-align: center;
-            padding: 50px 0;
-        }
-
-        .service-item {
-            margin-bottom: 30px;
-        }
-
-        /* About section styles */
-        .about {
-            background-color: #f4f4f4;
-            padding: 50px 0;
-            text-align: center;
-        }
-
-        .team-member {
-            margin-top: 20px;
-        }
-
-        /* Testimonials section styles */
-        .testimonials {
-            padding: 50px 0;
-            text-align: center;
-        }
-
-        .testimonial {
-            margin-bottom: 20px;
-        }
-
-        /* Appointment booking section styles */
-        .appointment {
-            background-color: #4CAF50;
-            color: #fff;
-            text-align: center;
-            padding: 50px 0;
-        }
-
-        /* Contact section styles */
-        .contact {
-            text-align: center;
-            padding: 50px 0;
-        }
-
-        /* Footer styles */
-        footer {
-            background-color: #4CAF50;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-    </style>
-    <link rel="stylesheet" href="responsive.css">
-</head>
-<body>
-
-    <!-- Header Section -->
-    <header>
-        <h1>Zara Therapy Clinic</h1>
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="meetourteam.html">Therapists</a>
-            <a href="Services.html">Services</a>
-            <a href="products.html">Products</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="review.html">Testimonials</a>
-            <a href="Contact%20Us.html">Contact</a>
-            <a href="Gallery.html">Gallery</a>
+    <link
+      rel="stylesheet"
+      href="assets/vendor/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="responsive.css" >
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="main-navigation" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Home</a
+          ><a href="Services.html">Services</a
+          ><a href="meetourteam.html">Our team</a
+          ><a href="products.html">Products</a><a href="aboutus.html">About</a
+          ><a href="review.html">Testimonials</a
+          ><a href="Gallery.html">Gallery</a
+          ><a href="Contact%20Us.html">Contact</a>
         </nav>
+      </div>
     </header>
-    <aside class="demo-notice">Portfolio demonstration · Fictional clinic · No medical advice, bookings or purchases.</aside>
-
-   <!-- slider -->
-   <div id="carouselExampleFade" class="carousel slide carousel-fade">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/istockphoto-147281082-612x612.jpg" class="d-block w-100" alt="Illustrative physiotherapy and clinic setting" height="600">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/f9d1769495f239571abaeb652613826e.jpg" class="d-block w-100" alt="Illustrative physiotherapy and clinic setting" height="600">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/istockphoto-1098314652-612x612.jpg" class="d-block w-100" alt="Illustrative physiotherapy and clinic setting" height="600">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/istockphoto-1182464970-612x612.jpg" class="d-block w-100" alt="Illustrative physiotherapy and clinic setting" height="600">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/new_pt_clinic_picture.jpg" class="d-block w-100" alt="Illustrative physiotherapy and clinic setting" height="600">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/physical-therapy-1200.750.jpg" class="d-block w-100" alt="Illustrative physiotherapy and clinic setting" height="600"  >
-      </div>
-
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="service-item">
-            <h3>Movement &amp; Mobility</h3>
-            <p>Explore a sample approach to movement and everyday mobility.</p>
+    <aside class="demo-notice">
+      <span class="notice-dot" aria-hidden="true"></span> A fictional clinic. A
+      real passion for thoughtful design.
+      <span class="notice-detail"
+        >Portfolio demo · No bookings or medical advice</span
+      >
+    </aside>
+    <main id="main">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="tiny-line"></span> MOVEMENT. BALANCE. POSSIBILITY.
+          </p>
+          <h1>A little movement.<br >A whole new<br ><em>outlook.</em></h1>
+          <p class="lead-copy">
+            A welcoming physiotherapy website concept, centred on movement,
+            everyday wellbeing and the possibilities ahead.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="Services.html"
+              >Explore our services <span aria-hidden="true">→</span></a
+            ><a class="text-link" href="aboutus.html"
+              >Get to know Zara <span aria-hidden="true">→</span></a
+            >
+          </div>
+          <div class="hero-footnote">
+            <span class="round-symbol" aria-hidden="true">✳</span>
+            <p>
+              Thoughtful design. Human connection.<br ><strong
+                >A fictional clinic, made with care.</strong
+              >
+            </p>
+          </div>
         </div>
-        <div class="service-item">
+        <div class="hero-visual">
+          <section
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            aria-roledescription="carousel"
+            aria-label="Clinic concept photographs"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/istockphoto-1098314652-612x612.jpg"
+                  alt="An illustrative physiotherapy session"
+                  width="612"
+                  height="620"
+                >
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/new_pt_clinic_picture.jpg"
+                  alt="An illustrative rehabilitation space"
+                  width="612"
+                  height="620"
+                >
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/istockphoto-1182464970-612x612.jpg"
+                  alt="Illustrative guided movement"
+                  width="612"
+                  height="620"
+                >
+              </div>
+            </div>
+            <div class="carousel-toolbar">
+              <span>Space to move. Room to grow.</span>
+              <div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev"
+                >
+                  <span aria-hidden="true">←</span
+                  ><span class="visually-hidden">Previous image</span></button
+                ><button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next"
+                >
+                  <span aria-hidden="true">→</span
+                  ><span class="visually-hidden">Next image</span>
+                </button>
+              </div>
+            </div>
+          </section>
+          <span class="image-note">MOVEMENT &amp; WELLBEING</span>
+        </div>
+      </section>
+      <section class="values-strip">
+        <div class="wrap">
+          <span>Rooted in movement</span><span aria-hidden="true">✳</span
+          ><span>Designed around people</span><span aria-hidden="true">✳</span
+          ><span>Inspired by everyday wellbeing</span>
+        </div>
+      </section>
+      <section class="section-block wrap">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">HOW WE IMAGINE CARE</p>
+            <h2>Support for every<br ><em>kind of movement.</em></h2>
+          </div>
+          <p>
+            Explore three pillars of our clinic concept.<br >Simple ideas for a
+            more active everyday.
+          </p>
+        </div>
+        <div class="service-grid">
+          <a class="service-card" href="Services.html"
+            ><span class="card-number">01</span>
+            <h3>Movement &amp; mobility</h3>
+            <p>
+              Finding ease in the everyday. Explore a sample approach to
+              balance, flexibility and comfortable movement.
+            </p>
+            <span class="card-arrow" aria-hidden="true">→</span></a
+          ><a class="service-card" href="Services.html"
+            ><span class="card-number">02</span>
             <h3>Rehabilitation</h3>
-            <p>Discover example rehabilitation and recovery services.</p>
+            <p>
+              A step-by-step perspective on recovery, with illustrative services
+              for a return to everyday activities.
+            </p>
+            <span class="card-arrow" aria-hidden="true">→</span></a
+          ><a class="service-card" href="Services.html"
+            ><span class="card-number">03</span>
+            <h3>Exercise &amp; wellbeing</h3>
+            <p>
+              Small movements, thoughtfully considered. Discover the concept of
+              guided exercise and active living.
+            </p>
+            <span class="card-arrow" aria-hidden="true">→</span></a
+          >
         </div>
-        <div class="service-item">
-            <h3>Exercise Support</h3>
-            <p>A demonstration of guided exercise and wellbeing services.</p>
+      </section>
+      <section class="story-section wrap">
+        <img
+          src="assets/images/mhollerFyzical_Interiors022020_05-1.webp"
+          alt="An illustrative open rehabilitation studio"
+          width="640"
+          height="480"
+          loading="lazy"
+        >
+        <div class="story-copy">
+          <p class="eyebrow">A WELCOMING PERSPECTIVE</p>
+          <h2>Good things begin<br >with <em>feeling at ease.</em></h2>
+          <p>
+            Zara brings a calm, human touch to the idea of a physiotherapy
+            clinic. Clear information, welcoming spaces and a considered
+            approach to every detail.
+          </p>
+          <p>
+            Meet the fictional people and ideas behind this portfolio project.
+          </p>
+          <a class="text-link" href="meetourteam.html"
+            >Meet our team <span aria-hidden="true">→</span></a
+          >
         </div>
-        <a href="./Services.html" class="cta-button">Explore Our Services</a>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Explore the story behind this fictional physiotherapy clinic. <a href="./aboutus.html">click here</a></p>
-        <div class="team-member">
-            <div class="profile-avatar" aria-hidden="true">AM</div>
-            <p>Alex Morgan · Fictional clinic lead</p>
+      </section>
+      <section class="home-quotes section-block wrap">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A FEW WORDS</p>
+            <h2>A welcoming first impression.</h2>
+          </div>
+          <a class="text-link" href="review.html"
+            >All sample testimonials <span aria-hidden="true">→</span></a
+          >
         </div>
-        <a href="./meetourteam.html" class="cta-button">Meet Our Team</a>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <h2>Sample Testimonials</h2>
-        <div class="testimonial"><p>“The clear service descriptions made this sample website easy to explore.”</p><p>— Fictional visitor</p></div>
-        <div class="testimonial"><p>“I enjoyed browsing the team profiles and the welcoming green design.”</p><p>— Fictional visitor</p></div>
-        <a href="./review.html" class="cta-button">Read More Testimonials</a>
-    </section>
-
-    <!-- Appointment Booking Section -->
-    <section id="appointment" class="appointment">
-        <h2>Explore the Clinic Concept</h2>
-        <p>This portfolio demo does not accept appointments.</p>
-        <a href="Contact%20Us.html" class="cta-button">View Demo Contact Page</a>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Get in Touch</h2>
-        <p>See the sample contact layout. No messages are sent or stored.</p>
-        <a href="./Contact Us.html" class="cta-button">Contact Us</a>
-    </section>
-
-    <!-- Footer Section -->
-    <footer><p>Zara Therapy Clinic · Fictional portfolio demonstration</p><p>No healthcare services are provided through this website.</p></footer>
-    <script src="assets/vendor/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        <div class="quote-grid">
+          <figure class="quote-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>
+              The clear service descriptions made this sample website easy to
+              explore.
+            </blockquote>
+            <figcaption>
+              <span class="mini-avatar">A</span
+              ><span
+                >Alex · Fictional visitor<small
+                  >Illustrative feedback</small
+                ></span
+              >
+            </figcaption>
+          </figure>
+          <figure class="quote-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>
+              I enjoyed browsing the team profiles and the welcoming green
+              design.
+            </blockquote>
+            <figcaption>
+              <span class="mini-avatar">J</span
+              ><span
+                >Jamie · Fictional visitor<small
+                  >Illustrative feedback</small
+                ></span
+              >
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="closing-banner wrap">
+        <div>
+          <p class="eyebrow">TAKE A LOOK AROUND</p>
+          <h2>Discover a different<br >perspective on wellbeing.</h2>
+        </div>
+        <a class="button button-light" href="aboutus.html"
+          >Our story <span aria-hidden="true">→</span></a
+        >
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <p>
+          A thoughtful approach to movement.<br >A welcoming space to explore.
+        </p>
+        <a class="footer-explore" href="Services.html"
+          >Explore the concept <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <p>Zara Therapy Clinic · Portfolio demonstration</p>
+        <p>
+          Fictional profiles. No healthcare services, bookings or purchases.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="assets/vendor/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

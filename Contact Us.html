@@ -1,145 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Zara Therapy Clinic: a fictional physiotherapy website exploring movement, rehabilitation and wellbeing."
+    >
+    <meta name="theme-color" content="#174e3c" >
     <title>Contact Us - Zara Therapy Clinic</title>
-
-    <link href="assets/vendor/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-        /* Reset some default styles */
-        body, h1, h2, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-        }
-
-        /* Header styles */
-        header {
-            background-color:#4CAF50;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav {
-            margin-top: 10px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        /* Hero section styles */
-        .hero {
-            background-color: #4CAF50;
-            color: #fff;
-            text-align: center;
-            padding: 100px 0;
-        }
-
-
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 400px;
-    width: 650px;
-    align-content: right;
-    float: right;
-    display: inline;
-    margin: 50px;
-
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-bottom: 8px;
-}
-
-input,
-textarea {
-    margin-bottom: 16px;
-    padding: 8px;
-}
-
-button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.contact{
-    border: 2px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 600px;
-    width: 400px;
-    align-content: left;
-    padding: 70px;
-    margin-left: 70px;
-    margin: 50px;
-    display: inline-block;
-    border-radius: 8px;
-
-}
-
-button:hover {
-    background-color: #45a049;
-}
- /* Footer styles */
- footer {
-            background-color: #4caf50;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-@media screen {
-
-}
-    </style>
-        <link rel="stylesheet" href="responsive.css">
-</head>
-    <body>
-         <!-- Header Section -->
-    <header>
-        <h1>Zara Therapy Clinic</h1>
-        <nav aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="meetourteam.html">Therapists</a>
-            <a href="Services.html">Services</a>
-            <a href="products.html">Products</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="review.html">Testimonials</a>
-            <a href="Contact%20Us.html">Contact</a>
-            <a href="Gallery.html">Gallery</a>
+    <link
+      rel="stylesheet"
+      href="assets/vendor/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="responsive.css" >
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="main-navigation"
+          aria-expanded="false"
+        >
+          Menu <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="main-navigation" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="Services.html">Services</a
+          ><a href="meetourteam.html">Our team</a
+          ><a href="products.html">Products</a><a href="aboutus.html">About</a
+          ><a href="review.html">Testimonials</a
+          ><a href="Gallery.html">Gallery</a
+          ><a href="Contact%20Us.html" aria-current="page">Contact</a>
         </nav>
+      </div>
     </header>
-    <aside class="demo-notice">Portfolio demonstration · Fictional clinic · No medical advice, bookings or purchases.</aside>
-
-<main class="contact-layout"><section class="contact"><h2>Demo Contact Information</h2><p>Zara Therapy Clinic is a fictional portfolio project.</p><h3>Address</h3><address>Example Clinic, Sample Street<br>No physical clinic at this address.</address><h3>Email</h3><p>hello@example.com (example only)</p><h3>Appointments</h3><p>Bookings and healthcare enquiries are not accepted through this demonstration.</p></section>
-<section class="container"><h2>Contact Us</h2><p id="form-note">Preview only. Fields are disabled; no personal information is collected, sent or stored.</p><form aria-describedby="form-note"><label for="name">Name</label><input id="name" type="text" placeholder="Demo visitor" disabled><label for="email">Email</label><input id="email" type="email" placeholder="visitor@example.com" disabled><label for="message">Message</label><textarea id="message" rows="4" placeholder="Example message" disabled></textarea><button type="submit" disabled>Demo only — sending unavailable</button></form></section></main>
-    <footer><p>Zara Therapy Clinic · Fictional portfolio demonstration</p><p>No healthcare services are provided through this website.</p></footer>
-    <script src="assets/vendor/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    </body>
-    </html>
+    <aside class="demo-notice">
+      <span class="notice-dot" aria-hidden="true"></span> A fictional clinic. A
+      real passion for thoughtful design.
+      <span class="notice-detail"
+        >Portfolio demo · No bookings or medical advice</span
+      >
+    </aside>
+    <main id="main">
+      <section class="page-heading wrap">
+        <p class="eyebrow">LET’S KEEP THINGS CLEAR</p>
+        <h1>A friendly hello.<br ><em>A little introduction.</em></h1>
+        <p class="lead-copy">
+          Explore the contact experience imagined for Zara. This page is a
+          visual demonstration; no messages are collected or delivered.
+        </p>
+      </section>
+      <div class="contact-layout wrap">
+        <section class="contact-details">
+          <p class="eyebrow">THE CLINIC CONCEPT</p>
+          <h2>Good conversations<br >start with clarity.</h2>
+          <p>
+            Zara is a fictional portfolio project, not a real healthcare
+            provider. The details below are examples.
+          </p>
+          <dl class="contact-list">
+            <div>
+              <dt><span aria-hidden="true">→</span> FIND US</dt>
+              <dd>
+                Example Clinic, Sample Street<br ><small
+                  >No physical clinic at this address.</small
+                >
+              </dd>
+            </div>
+            <div>
+              <dt><span aria-hidden="true">→</span> SAY HELLO</dt>
+              <dd>hello@example.com<br ><small>Example email only.</small></dd>
+            </div>
+            <div>
+              <dt><span aria-hidden="true">→</span> APPOINTMENTS</dt>
+              <dd>
+                Demonstration only<br ><small
+                  >No bookings or healthcare enquiries accepted.</small
+                >
+              </dd>
+            </div>
+          </dl>
+        </section>
+        <section class="contact-form">
+          <div class="form-heading">
+            <h2>A note to Zara</h2>
+            <span class="status-pill">PREVIEW ONLY</span>
+          </div>
+          <p id="form-note">
+            This form is disabled. No personal information is collected, sent or
+            stored.
+          </p>
+          <form aria-describedby="form-note">
+            <label for="name">Your name</label
+            ><input
+              id="name"
+              type="text"
+              placeholder="Demo visitor"
+              disabled
+            ><label for="email">Email address</label
+            ><input
+              id="email"
+              type="email"
+              placeholder="visitor@example.com"
+              disabled
+            ><label for="message">Your message</label
+            ><textarea
+              id="message"
+              rows="5"
+              placeholder="What would you like to share?"
+              disabled
+            ></textarea
+            ><button class="button" type="submit" disabled>
+              Sending unavailable <span aria-hidden="true">→</span>
+            </button>
+            <p class="form-footnote">
+              A design preview, with your privacy in mind.
+            </p>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand" href="index.html" aria-label="Zara Therapy Clinic home"
+          ><span class="brand-mark" aria-hidden="true">z<span>+</span></span
+          ><span class="brand-name">zara<span>THERAPY CLINIC</span></span></a
+        >
+        <p>
+          A thoughtful approach to movement.<br >A welcoming space to explore.
+        </p>
+        <a class="footer-explore" href="Services.html"
+          >Explore the concept <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <p>Zara Therapy Clinic · Portfolio demonstration</p>
+        <p>
+          Fictional profiles. No healthcare services, bookings or purchases.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
